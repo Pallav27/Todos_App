@@ -42,7 +42,7 @@ function App() {
   return (
     <TodoProvider value={{ todos, addTodo, deleteTodo, toggleComplete, updateTodo }}>
       <div className="min-h-screen flex flex-col items-center bg-lightgreen py-10">
-        <h1 className="text-3xl font-bold mb-6 text-black">TODO LIST</h1>
+        <h1 className="text-3xl font-bold mb-6 text-black">TODO</h1>
         <TodoForm />
         <div className="w-full max-w-lg space-y-3 mt-4">
           {todos.map((todo) => (
